@@ -9,7 +9,7 @@ from pynput.mouse import Controller as MouseController
 import threading
 from pynput.keyboard import Key, Controller as KeyboardController
 
-# ========== 配置：全部用 .pkl ==========
+# ========== 配置：全部用 .pkl 存在 pkl文件包中==========
 MENU_FILES = [
     "role_1",
     "role_2",
