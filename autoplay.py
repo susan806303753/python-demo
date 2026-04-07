@@ -40,7 +40,7 @@ def chat_to_npc():
         if keyboard.is_pressed('end'):
             print("退出")
             break
-         # 还没找到图标时，才去检测
+         # 还没找到图标时，才去检
         if not chat_ok:
             try: 
                 pos = pyautogui.locateOnScreen(CHAT_ICON_PATH, region=DETECT_REGION, confidence=CONFIDENCE)
